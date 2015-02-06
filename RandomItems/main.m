@@ -6,12 +6,28 @@
 //  Copyright (c) 2015 Dom. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+#import <Foundation/Foundation.h>
+#import "DOMItem.h"
+#import "DOMContainer.h"
+
+int main(int argc, const char * argv[])
+{
+@autoreleasepool {
+    NSMutableArray *items = [[NSMutableArray alloc]init];
+    for (int i=0; i<10; i++) {
+        DOMItem *item = [DOMItem randomItem];
+        [items addObject:item];
     }
-    return 0;
+    NSLog(@"%@",items);
+    
+    DOMContainer *container = [[DOMContainer alloc]initWithContainerName:@"My Continer" valueInDollars:50];
+    for (DOMItem *item in items)
+    {
+        [container.subItems  addObject:item];
+    }
+    NSLog(@"%@",container);
 }
+return 0;
+}
+
