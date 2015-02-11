@@ -20,13 +20,17 @@ int main(int argc, const char * argv[])
         [items addObject:item];
     }
     NSLog(@"%@",items);
+
+    //Gold CHallenge 
     
-    DOMContainer *container = [[DOMContainer alloc]initWithContainerName:@"My Continer" valueInDollars:50];
-    for (DOMItem *item in items)
-    {
-        [container.subItems  addObject:item];
-    }
-    NSLog(@"%@",container);
+    
+    //DOMContainer *container = [[DOMContainer alloc]initWithContainerName:@"Container" valueInDollars:50];
+    //for (DOMItem *item in items)
+    //{
+      //  [container.subItems  addObject:item];
+    //}
+    //NSLog(@"%@",container);
+    
 }
 return 0;
 }

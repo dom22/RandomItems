@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C33EAD0B1A79989500D78E9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C33EAD0A1A79989500D78E9B /* main.m */; };
 		C33EAD191A79B5E600D78E9B /* DOMItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C33EAD181A79B5E600D78E9B /* DOMItem.m */; };
-		C388F00E1A83F21300164997 /* DOMContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = C388F00D1A83F21300164997 /* DOMContainer.m */; };
+		C374461D1A8B3B17007C0837 /* DOMContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = C374461C1A8B3B17007C0837 /* DOMContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +29,8 @@
 		C33EAD0A1A79989500D78E9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C33EAD181A79B5E600D78E9B /* DOMItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOMItem.m; sourceTree = SOURCE_ROOT; };
 		C33EAD1A1A79B5EE00D78E9B /* DOMItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DOMItem.h; path = ../DOMItem.h; sourceTree = "<group>"; };
-		C388F00C1A83F21300164997 /* DOMContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DOMContainer.h; path = ../DOMContainer.h; sourceTree = "<group>"; };
-		C388F00D1A83F21300164997 /* DOMContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DOMContainer.m; path = ../DOMContainer.m; sourceTree = "<group>"; };
+		C374461C1A8B3B17007C0837 /* DOMContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOMContainer.m; sourceTree = "<group>"; };
+		C374461E1A8B3B28007C0837 /* DOMContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOMContainer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +63,11 @@
 		C33EAD091A79989500D78E9B /* RandomItems */ = {
 			isa = PBXGroup;
 			children = (
-				C388F00C1A83F21300164997 /* DOMContainer.h */,
-				C388F00D1A83F21300164997 /* DOMContainer.m */,
 				C33EAD1A1A79B5EE00D78E9B /* DOMItem.h */,
 				C33EAD181A79B5E600D78E9B /* DOMItem.m */,
 				C33EAD0A1A79989500D78E9B /* main.m */,
+				C374461C1A8B3B17007C0837 /* DOMContainer.m */,
+				C374461E1A8B3B28007C0837 /* DOMContainer.h */,
 			);
 			path = RandomItems;
 			sourceTree = "<group>";
@@ -129,8 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C33EAD191A79B5E600D78E9B /* DOMItem.m in Sources */,
-				C388F00E1A83F21300164997 /* DOMContainer.m in Sources */,
 				C33EAD0B1A79989500D78E9B /* main.m in Sources */,
+				C374461D1A8B3B17007C0837 /* DOMContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

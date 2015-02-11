@@ -2,20 +2,18 @@
 //  DOMContainer.m
 //  RandomItems
 //
-//  Created by Dom on 2/5/15.
 //  Copyright (c) 2015 Dom. All rights reserved.
 //
 
+//DOMContainer.m
+
 #import "DOMContainer.h"
-#import "DOMItem.h"
-#import "DOMItem.m"
 
-@implementation DOMContainer
-
+@implementation DOMContainer : DOMItem
 - (instancetype)initWithContainerName:(NSString *)name valueInDollars:(int)value
 {
     self = [super initWithItemName:name valueInDollars:value serialNumber:@""];
-
+    
     if (self) {
         _subItems = [[NSMutableArray alloc]init];
     }

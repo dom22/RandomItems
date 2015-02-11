@@ -1,13 +1,9 @@
 //
-//  NSObject+DOMContainer.h
+//  DOMContainer.h
 //  RandomItems
-//
-//  Created by Dom on 2/5/15.
 //  Copyright (c) 2015 Dom. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "DOMItem.h"
 
 #import "DOMItem.h"
 
